@@ -1,3 +1,5 @@
+package practice;
+
 public class Phone {
 
     /**
@@ -14,13 +16,13 @@ public class Phone {
 
     public static void main(String[] args) {
         Phone myPhone = new Phone();
-        myPhone.call();
+        myPhone.call("John");
         // myPhone.sendText() == Hello!!! How are you?
         String textMessage = myPhone.sendText();
         System.out.println(textMessage);
     }
 
-    public void call(){
+    public void call(String john){
         System.out.println("Calling.....");
     }
 

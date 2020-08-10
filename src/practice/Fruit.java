@@ -1,3 +1,5 @@
+package practice;
+
 public class Fruit {
     public static void main(String[] args) {
         System.out.println("which fruit do you like?");
